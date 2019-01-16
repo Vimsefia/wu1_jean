@@ -1,0 +1,4 @@
+.bg-image {
+    background-image: url("./repeat.jpg");
+    background-repeat: round;
+}
