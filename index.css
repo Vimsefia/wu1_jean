@@ -1,4 +1,36 @@
-.bg-image {
-    background-image: url("./repeat.jpg");
-    background-repeat: round;
+header {
+    text-align: center;
+    background-image: url('repeat.jpg');
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 50px
+}
+
+nav {
+    overflow: hidden;
+    background-color: #22292C;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a{
+    float: left;
+    color: white;
+    background-color: transparent;
+    padding: 1px 20px;
+    text-decoration: none
+}
+
+.topnav a:hover{
+    color: #8EA86D;
+    background-color: #474947;
+}
+.searchbar {
+    float: right;
+    padding: 1px;
 }
