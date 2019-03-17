@@ -1,3 +1,9 @@
+
+body {
+    background-color: #FFFFFF;
+    color: black;
+}
+
 header {
     text-align: center;
     background-image: url('repeat.jpg');
@@ -13,24 +19,46 @@ nav {
     background-color: #22292C;
     color: white;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .topnav a{
     float: left;
     color: white;
     background-color: transparent;
-    padding: 1px 20px;
-    text-decoration: none
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 5px;
 }
 
-.topnav a:hover{
+.topnav a:hover, a:active{
     color: #8EA86D;
     background-color: #474947;
 }
 .searchbar {
     float: right;
-    padding: 1px;
+    padding: 7px;
+    background-image: url('searchicon.png');
+    background-repeat: no-repeat;
+}
+.searchbar button:hover {
+    border: 1px solid #8EA86D;
+}
+
+input {
+    border: 2px;
+    border-radius: 25px;
+    color: grey;
+    background-color: white;
+    padding: 8px 10px;
+    margin: 4px 7px 4px 1px;
+}
+
+button {
+    border: 2px;
+    border-radius: 25px;
+    color: white;
+    background-color: #474947;
+    padding: 8px 15px;
+    margin-right: 10px;
 }
