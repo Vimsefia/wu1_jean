@@ -4,61 +4,89 @@ body {
     color: black;
 }
 
+.contact {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.contactform input[type=text], select, textarea {
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    resize: vertical;
+    width: 100%;
+}
+
+.contactform input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
 header {
-    text-align: center;
     background-image: url('repeat.jpg');
     padding: 30px;
+    text-align: center;
 }
 
 header h1 {
     font-size: 50px
 }
 
+input[type=submit] {
+    cursor: pointer;
+    background-color: #474947;
+    color: #FFFFFF;
+}
+
 nav {
-    overflow: hidden;
     background-color: #22292C;
     color: white;
-    text-align: center;
     font-size: 20px;
+    overflow: hidden;
+    text-align: center;
 }
 
-.topnav a{
-    float: left;
-    color: white;
-    background-color: transparent;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin-top: 5px;
-}
-
-.topnav a:hover, a:active{
-    color: #8EA86D;
-    background-color: #474947;
-}
 .searchbar {
-    float: right;
-    padding: 7px;
     background-image: url('searchicon.png');
     background-repeat: no-repeat;
+    float: right;
+    padding: 7px;
 }
-.searchbar button:hover {
+
+.searchbar input[type=submit] {
+    border: 2px;
+    border-radius: 25px;
+    margin-right: 10px;
+    padding: 8px 15px;
+}
+
+.searchbar input[type=submit] :hover {
     border: 1px solid #8EA86D;
 }
 
-input {
+.searchbar input {
+    background-color: white;
     border: 2px;
     border-radius: 25px;
     color: grey;
-    background-color: white;
-    padding: 8px 10px;
     margin: 4px 7px 4px 1px;
+    padding: 8px 10px;
 }
 
-button {
-    border: 2px;
-    border-radius: 25px;
+.topnav a{
+    background-color: transparent;
     color: white;
+    float: left;
+    margin-top: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.topnav a:hover, a:active{
     background-color: #474947;
-    padding: 8px 15px;
-    margin-right: 10px;
+    color: #8EA86D;
 }

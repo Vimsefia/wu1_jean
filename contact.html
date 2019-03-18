@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
@@ -21,15 +22,50 @@
             <a href="work.html">Work</a>
         </div>
 
-        <form class="searchbar" action="/index.html" method="get">
-            <input type="text" name="searchbar" id="searchbar" value="Search...">
-            <button type="submit" name="searchbutton">Search</button>
+        <form class="searchbar" action="contact.html" method="get">
+            <input type="text" name="searchbar" id="searchbar" placeholder="Search...">
+            <input type="submit" name="searchbutton" value="Search">
         </form>
     </nav>
+
+    <div class="contact" id="contact">
+
+        <form class="contactform" action="contact.html" method="post">
+
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+            <br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+            <br>
+            <label for="country">Country</label>
+            <select class="country" id="country" name="country">
+                <option value="sweden">Sweden</option>
+                <option value="norway">Norway</option>
+                <option value="denmark">Denmark</option>
+                <option value="finland">Finland</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email" placeholder="Your e-mail...">
+            <br>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Your subject...">
+            <br>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" placeholder="Write your message..." rows="8" cols="80"></textarea>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+
+        <p>Info:<br> Jenny Andersson<br>Gothenburg - Sweden<br>Mail: ...<br>Instagram: ...</p>
+    </div>
 
     <footer>
 
     </footer>
 
 </body>
+
 </html>
