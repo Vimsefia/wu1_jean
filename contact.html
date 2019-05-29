@@ -4,7 +4,14 @@
 <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="index.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/CSS/index.css">
 </head>
 
 <body>
@@ -16,14 +23,18 @@
     </header>
     <nav>
         <div class="topnav" id="topnav" >
-            <a href="index.html">Start</a>
+            <a href="index.html">Home</a>
             <a href="about.html">About</a>
-            <a href="#">Contact</a>
+            <a class="active" href="contact.html">Contact</a>
             <a href="work.html">Work</a>
+            <a href="history.html">History of Internet</a>
         </div>
 
-        <form class="searchbar" action="contact.html" method="get">
-            <input type="text" name="searchbar" id="searchbar" placeholder="Search...">
+        <form class="search" action="contact.html" method="get">
+            <div class="searchbar">
+                <i class="fas fa-search"></i>
+                <input type="text" name="searchbar" id="searchbar" placeholder="Search...">
+            </div>
             <input type="submit" name="searchbutton" value="Search">
         </form>
     </nav>
@@ -32,10 +43,10 @@
 
         <form class="contactform" action="contact.html" method="post">
 
-            <label for="fname">First name:</label>
+            <label for="fname">First name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your first name...">
             <br>
-            <label for="lname">Last name:</label>
+            <label for="lname">Last name</label>
             <input type="text" id="lname" name="lastname" placeholder="Your last name...">
             <br>
             <label for="country">Country</label>
@@ -47,24 +58,26 @@
                 <option value="other">Other</option>
             </select>
             <br>
-            <label for="email">E-mail:</label>
+            <label for="email">E-mail</label>
             <input type="text" id="email" name="email" placeholder="Your e-mail...">
             <br>
-            <label for="subject">Subject:</label>
+            <label for="subject">Subject</label>
             <input type="text" id="subject" name="subject" placeholder="Your subject...">
             <br>
             <label for="message">Message:</label>
-            <textarea name="message" id="message" placeholder="Write your message..." rows="8" cols="80"></textarea>
+            <textarea name="message" id="message" placeholder="Write your message..." rows="1" cols="80"></textarea>
             <br>
             <input type="submit" name="submit" value="Submit">
         </form>
 
-        <p>Info:<br> Jenny Andersson<br>Gothenburg - Sweden<br>Mail: ...<br>Instagram: ...</p>
+
     </div>
 
     <footer>
-
+        <p class="footer">Jenny Andersson | Gothenburg - Sweden | Mail: ... | Instagram: ...</p>
     </footer>
+
+    <script src="./Assets/JS/textarea.js"></script>
 
 </body>
 

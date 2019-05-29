@@ -4,7 +4,15 @@
 <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="index.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/CSS/index.css">
+
 </head>
 
 <body>
@@ -16,20 +24,128 @@
     </header>
     <nav>
         <div class="topnav" id="topnav" >
-            <a href="#">Start</a>
+            <a class="active" href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
             <a href="work.html">Work</a>
+            <a href="history.html">History of Internet</a>
         </div>
 
-        <form class="searchbar" action="/index.html" method="get">
+        <form class="search" action="contact.html" method="get">
+            <div class="searchbar">
+                <i class="fas fa-search"></i>
                 <input type="text" name="searchbar" id="searchbar" placeholder="Search...">
-                <input type="submit" name="searchbutton" value="Search">
+            </div>
+            <input type="submit" name="searchbutton" value="Search">
         </form>
     </nav>
 
-    <footer>
+    <div class="index">
+        <h2>Welcome!</h2>
+        <p class="index">Here you can see the most recent work I've done (sample pictures)</p>
+    </div>
 
+
+    <div class="slideshow">
+        <div class="Slides">
+            <div class="imgNumber">1 / 6</div>
+            <img src="Assets/IMG/Landscapes/Afternoon_wide.jpg" alt="Sunset by a lake in asia with mountains in the background" width="100%">
+        </div>
+
+        <div class="Slides">
+            <div class="imgNumber"> 2 / 6</div>
+            <img src="Assets/IMG/Animals/Bird_wide.jpg" alt="A hawk sitting in the grass" width="100%">
+        </div>
+
+        <div class="Slides">
+            <div class="imgNumber">3 / 6</div>
+            <img src="Assets/IMG/Flowers/Flower_wide.jpg" alt="Rhododendron flowers" width="100%">
+        </div>
+
+        <div class="Slides">
+            <div class="imgNumber">4 / 6</div>
+            <img src="Assets/IMG/Cities/Hamburg_wide.jpg" alt="Hamburg by dawn" width="100%">
+        </div>
+
+        <div class="Slides">
+            <div class="imgNumber">5 / 6</div>
+            <img src="assets/IMG/Landscapes/Landscape_wide.jpg" alt="Grassy meadow and cloudy sky" width="100%">
+        </div>
+
+        <div class="Slides">
+            <div class="imgNumber">6 / 6</div>
+            <img src="assets/IMG/Landscapes/Mountain_wide.jpg" alt="Some seals laying on the rocks and a snowy mountain in the background" width="100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="imgCaption">
+            <p id="caption"></p>
+        </div>
+
+        <div class="rowSlide">
+            <div class="columnSlide">
+              <img class="democursor" src="assets/IMG/Landscapes/Afternoon.jpg" width="100%" onclick="currentSlide(1)" alt="Sunset by a lake in asia with mountains in the background">
+            </div>
+
+            <div class="columnSlide">
+              <img class="democursor" src="assets/IMG/Animals/Bird.jpg" width="100%" onclick="currentSlide(2)" alt="A hawk sitting in the grass">
+            </div>
+
+            <div class="columnSlide">
+              <img class="democursor" src="assets/IMG/Flowers/Flower.jpg" width="100%" onclick="currentSlide(3)" alt="Rhododendron flowers">
+            </div>
+
+            <div class="columnSlide">
+              <img class="democursor" src="assets/IMG/Cities/Hamburg.jpg" width="100%" onclick="currentSlide(4)" alt="Hamburg by dawn">
+            </div>
+
+            <div class="columnSlide">
+              <img class="democursor" src="assets/IMG/Landscapes/Landscape.jpg" width="100%" onclick="currentSlide(5)" alt="Grassy meadow and cloudy sky">
+            </div>
+
+            <div class="columnSlide">
+              <img class="democursor" src="assets/IMG/Landscapes/Mountain.jpg" width="100%" onclick="currentSlide(6)" alt="Some seals laying on the rocks and a snowy mountain in the background">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("Slides");
+          var dots = document.getElementsByClassName("democursor");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+    </script>
+
+    <footer>
+        <p class="footer">Jenny Andersson | Gothenburg - Sweden | Mail: ... | Instagram: ...</p>
     </footer>
 
 </body>

@@ -1,0 +1,278 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    float: right;
+    padding: 5%;
+}
+
+.aboutImg {
+    float: left;
+    height: 200px;
+    padding-right: 5%;
+    width: 200px;
+}
+
+.aboutMe {
+    text-align: right;
+    text-align: justify;
+}
+
+.btnGrid {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btnGrid:hover {
+    background-color: #ddd;
+}
+
+.grid button.active {
+    background-color: #666;
+    color: white;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.columnGrid {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.columnGrid img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.columnSlide {
+    float: left;
+    width: 16.66%;
+}
+
+.contact {
+    font-size: 20px;
+    margin: auto;
+    padding-top: 30px;
+    width: 60%;
+}
+
+.contactform {
+    background-color: lightgrey;
+    border-radius: 10px;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+.contactform input[type=text], select, textarea {
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    resize: vertical;
+    width: 100%;
+}
+
+.contactform input[type=submit] {
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.democursor {
+  opacity: 0.6;
+}
+
+.democursor:hover, .democursor.active {
+    opacity: 1;
+}
+
+.fact {
+    text-align: left;
+}
+.footer {
+    color: grey;
+    margin-top: 50px;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.gridHeader {
+    text-align: center;
+    padding: 32px;
+}
+
+header {
+    background-image: url('../IMG/repeat.jpg');
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px
+}
+
+.history {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#historyofinternet {
+    width: 75%;
+    margin: auto;
+}
+
+.imgCaption {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.imgNumber {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    padding-top: 60px;
+    position: absolute;
+    top: 0;
+}
+
+.index {
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background-color: #474947;
+    color: #FFFFFF;
+}
+
+nav {
+    background-color: #22292C;
+    color: #FFFFFF;
+    font-size: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.rowGrid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.rowSlide:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.search {
+    float: right;
+    padding: 10px;
+}
+
+.search div {
+    background-color: white;
+    border-radius: 25px;
+    color: grey;
+    float: left;
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+.search input[type=submit] {
+    border: 1px solid #22292C;
+    border-radius: 25px;
+    float: right;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.search input[type=submit]:hover {
+    border: 1px solid #4D7511;
+}
+
+.search input[type=text] {
+    border: transparent;
+}
+
+.slides {
+    display: none;
+    width:100%;
+}
+
+.slideshow {
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    position: relative;
+    width: 75%;
+}
+
+.topnav a{
+    background-color: transparent;
+    color: white;
+    float: left;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.topnav a.active, .topnav a:hover{
+    background-color: #474947;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
