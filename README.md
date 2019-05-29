@@ -4,9 +4,21 @@
 ## Bakgrund
 
 ## Planering
+
 ### Innehåll
+Hemsidan ska innehålla fem flikar: Home, about, contact, work och en sida för uppgiften "internets historia". <br>
+Headern ska innehålla ett mönster, t.ex. marmor. Det ska även vara en horisontell navbar precis under mönstret som en del av headern. 
+"Home" ska innehålla de senaste bilderna som är inlagda i "work".
+"About" ska innehålla en personlig bild och en text om mig själv.
+"Contact" ska innehålla ett kontaktformulär där man fyller i namn, land man kommer ifrån (för att man ska veta språk), e-mail, ämne och meddelande.
+"Work" ska innehålla alla bilder som är inlagda i portfolion. (Kanske indelade i kategorier t.ex fåglar, vilda djur mm. där man klickar på en bild och kommer in till alla inlagda bilder av den "sorten".
+History of Internet innehåller mina svar på en uppgift vi fått.
+
 ### Layout
+
+
 ### Färgval
+
 
 ##### Bakgrund - 
 ###### Användningsområde
@@ -39,7 +51,11 @@
 ###### RGB - rgb(?,?,?): ![alt-text](https://via.placeholder.com/20/000000/000000?Text=%20 "#000000")
 
 ### Typsnitt
+Oswald, Sans-serif
+
 ### Mockup
+
+
 ### Tillgänglighet
 
 ## Dokumentation
