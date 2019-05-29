@@ -10,33 +10,33 @@
 
 ##### Bakgrund - 
 ###### Användningsområde
-###### HEX - #D5F0FF: ![alt-text](https://via.placeholder.com/20/D5F0FF/D5F0FF?Text=%20 "#D5F0FF")
+###### HEX - #FFFFFF: ![alt-text](https://via.placeholder.com/20/FFFFFF/FFFFFF?Text=%20 "#FFFFFF")
 
-###### RGB - rgb(241,242,243): ![alt-text](https://via.placeholder.com/20/F0E7DC/F0E7DC?Text=%20 "#F0E7DC")
+###### RGB - rgb(?,?,?): ![alt-text](https://via.placeholder.com/20/FFFFFF/FFFFFF?Text=%20 "#FFFFFF")
 
 ##### Element - 
 ###### Användningsområde
-###### HEX - #?: ![alt-text](https://via.placeholder.com/20/76c187/76c187?Text=%20 "#76c187")
+###### HEX - #474947: ![alt-text](https://via.placeholder.com/20/474947/474947?Text=%20 "#474947")
 
-###### RGB - rgb(241,242,243): ![alt-text](https://via.placeholder.com/20/F0E7DC/F0E7DC?Text=%20 "#F0E7DC")
+###### RGB - rgb(?,?,?): ![alt-text](https://via.placeholder.com/20/474947/474947?Text=%20 "#474947")
 
 ##### Huvudsaklig färg - 
 ###### Användningsområde
-###### HEX - #0C6ABF: ![alt-text](https://via.placeholder.com/20/0C6ABF/0C6ABF?Text=%20 "#0C6ABF")
+###### HEX - #22292C: ![alt-text](https://via.placeholder.com/20/22292C/22292C?Text=%20 "#22292C")
 
-###### RGB - rgb(241,242,243): ![alt-text](https://via.placeholder.com/20/F0E7DC/F0E7DC?Text=%20 "#F0E7DC")
+###### RGB - rgb(?,?,?): ![alt-text](https://via.placeholder.com/20/22292C/22292C?Text=%20 "#22292C")
 
 ##### Beteende -
 ###### Användningsområde
-###### HEX - #?: ![alt-text](https://via.placeholder.com/20/807e61/807e61?Text=%20 "#807e61")
+###### HEX - #4D7511: ![alt-text](https://via.placeholder.com/20/4D7511/4D7511?Text=%20 "#4D7511")
 
-###### RGB - rgb(241,242,243): ![alt-text](https://via.placeholder.com/20/F0E7DC/F0E7DC?Text=%20 "#F0E7DC")
+###### RGB - rgb(?,?,?): ![alt-text](https://via.placeholder.com/20/4D7511/4D7511?Text=%20 "#4D7511")
 
 ##### Text - 
 ###### Användningsområde
-###### HEX - #070E1E: ![alt-text](https://via.placeholder.com/20/070E1E/070E1E?Text=%20 "#070E1E")
+###### HEX - #000000: ![alt-text](https://via.placeholder.com/20/000000/000000?Text=%20 "#000000")
 
-###### RGB - rgb(241,242,243): ![alt-text](https://via.placeholder.com/20/F0E7DC/F0E7DC?Text=%20 "#F0E7DC")
+###### RGB - rgb(?,?,?): ![alt-text](https://via.placeholder.com/20/000000/000000?Text=%20 "#000000")
 
 ### Typsnitt
 ### Mockup
