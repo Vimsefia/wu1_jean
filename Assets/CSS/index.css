@@ -34,7 +34,7 @@
     background-color: #ddd;
 }
 
-.grid button.active {
+.btnGrid.active {
     background-color: #666;
     color: white;
 }
